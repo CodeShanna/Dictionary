@@ -33,11 +33,13 @@ export default function Dictionary() {
       // First Results is the component name, second is the property name, and third is the data we are requesting, property value
       <div className="Dictionary">
         <section>
+          <h1>What word do you want to look up?</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
               label="Search for a word"
               onChange={handleKeywordChange}
+              defaultValue={"opportunity"}
             />
             <h5 className="hint">
               Search for a word (e.g. Shallow, Heart, Bottle)
