@@ -1,3 +1,35 @@
+
+section {
+    background:#5b6367; 
+    padding: 30px;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px rgba(0,5,15,0.1);
+    color:#FBF9F6; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hint {
+    text-align: left;
+    padding-top: 5px;
+    font-size: .8em;
+}
+.Dictionary input {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+}
 .Dictionary {
-    
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+.Dictionary input {
+    font-size: large;
+    color: #005589;
+    font-weight: 500;
+}
+.Results {
+    text-align: left;
 }
